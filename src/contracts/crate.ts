@@ -1,7 +1,7 @@
 /**
- * sampled.ts
+ * crate.ts
  * ───────────
- * Frontend bindings for the Sampled Soroban contract.
+ * Frontend bindings for the Crate Soroban contract.
  *
  * Contract ID: CA7DGEWWS3VH5J2I4I7FFEB5UHK2MJSYWDKDQKXQM7GDNLI2IRATDTLG
  * Network: Stellar Testnet
@@ -92,7 +92,7 @@ async function simulateRead<T>(
 
   const result = await server.simulateTransaction(tx);
   if (SorobanRpc.Api.isSimulationError(result)) {
-    console.error("[sampled] simulation error:", result.error);
+    console.error("[crate] simulation error:", result.error);
     return null;
   }
 

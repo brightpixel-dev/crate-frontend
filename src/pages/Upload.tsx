@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { Upload as UploadIcon, Music, X, CheckCircle } from "lucide-react";
 import { useWallet } from "../hooks/useWallet";
-import { uploadSample, submitTransaction } from "../contracts/sampled";
+import { uploadSample, submitTransaction } from "../contracts/crate";
 import toast from "react-hot-toast";
 
 const GENRES = ["Hip-Hop", "Trap", "Lo-Fi", "R&B", "Drill", "Afrobeats", "Pop", "House", "Reggaeton", "Other"];
@@ -175,7 +175,7 @@ export default function Upload() {
       <div style={{ marginBottom: "32px" }}>
         <h1 style={{ fontSize: "28px", fontWeight: 800, marginBottom: "8px" }}>Upload a Beat</h1>
         <p style={{ color: "var(--text-secondary)", fontSize: "14px" }}>
-          List your beat on the Sampled marketplace. You earn 90% of every sale.
+          List your beat on the Crate marketplace. You earn 90% of every sale.
         </p>
       </div>
 

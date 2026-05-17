@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Play, ShoppingCart } from "lucide-react";
 import { useWallet } from "../hooks/useWallet";
-import { purchaseSample, submitTransaction, stroopsToXlm } from "../contracts/sampled";
-import type { SampleData } from "../contracts/sampled";
+import { purchaseSample, submitTransaction, stroopsToXlm } from "../contracts/crate";
+import type { SampleData } from "../contracts/crate";
 import toast from "react-hot-toast";
 
 interface SampleCardProps {

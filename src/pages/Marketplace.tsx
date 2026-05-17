@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 import SampleCard from "../components/SampleCard";
 import { useWallet } from "../hooks/useWallet";
-import { getSample, getStats } from "../contracts/sampled";
-import { stroopsToXlm } from "../contracts/sampled";
-import type { SampleData } from "../contracts/sampled";
+import { getSample, getStats } from "../contracts/crate";
+import { stroopsToXlm } from "../contracts/crate";
+import type { SampleData } from "../contracts/crate";
 import toast from "react-hot-toast";
 
 const GENRES = ["All", "Hip-Hop", "Trap", "Lo-Fi", "R&B", "Drill", "Afrobeats", "Pop"];

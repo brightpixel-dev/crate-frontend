@@ -1,6 +1,6 @@
-# sampled-frontend
+# crate-frontend
 
-React 18 + TypeScript + Vite frontend for the Sampled P2P beat marketplace on Stellar.
+React 18 + TypeScript + Vite frontend for the Crate P2P beat marketplace on Stellar.
 
 ## Contract
 

@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Play, ShoppingCart, Music, ExternalLink } from "lucide-react";
 import { useWallet } from "../hooks/useWallet";
-import { getSample, purchaseSample, submitTransaction, stroopsToXlm } from "../contracts/sampled";
-import type { SampleData } from "../contracts/sampled";
+import { getSample, purchaseSample, submitTransaction, stroopsToXlm } from "../contracts/crate";
+import type { SampleData } from "../contracts/crate";
 import toast from "react-hot-toast";
 
 export default function SampleDetail() {

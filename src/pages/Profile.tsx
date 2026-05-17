@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Wallet, TrendingUp, Music, ArrowDownToLine, Copy, CheckCircle } from "lucide-react";
 import { useWallet } from "../hooks/useWallet";
-import { getEarnings, withdrawEarnings, submitTransaction, stroopsToXlm } from "../contracts/sampled";
+import { getEarnings, withdrawEarnings, submitTransaction, stroopsToXlm } from "../contracts/crate";
 import toast from "react-hot-toast";
 
 export default function Profile() {

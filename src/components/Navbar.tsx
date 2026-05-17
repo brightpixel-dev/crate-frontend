@@ -44,7 +44,7 @@ export default function Navbar() {
           }}
         >
           <span style={{ color: "var(--accent)" }}>◈</span>
-          <span style={{ color: "var(--text-primary)" }}>Sampled</span>
+          <span style={{ color: "var(--text-primary)" }}>Crate</span>
         </Link>
 
         {/* Nav links */}
